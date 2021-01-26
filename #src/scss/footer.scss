@@ -1,0 +1,77 @@
+footer{}
+//====================================================================================================
+.footer {
+    background-color: black;
+    z-index: 40;
+    &__content {
+        display: flex;
+        height: 372px;
+        align-items: center;
+    }
+
+    &__logo-fun {
+
+        color: #648cff;
+        font-family: Ubuntu;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__logo-weather {
+        color: #648cff;
+        font-family: Ubuntu;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fc6a42;
+
+    }
+
+    &__icon {
+    }
+
+    &__menu {
+        display: flex;
+        flex: 0 1 700px;
+        justify-content: space-around;
+
+    }
+
+    &__social {
+
+    }
+}
+
+.footer-menu {
+}
+.icon-menu {
+}
+.menu-footer {
+
+    &__link {
+    }
+}
+.menu {
+
+    &__body {
+    }
+}
+.social-footer {
+    margin: 0px 20px 0px 0px;
+    &__facebook {
+    }
+
+    &__instagram {
+    }
+
+    &__twitter {
+    }
+}
+
+a {
+    color: white;
+}
+
+//====================================================================================================
+
